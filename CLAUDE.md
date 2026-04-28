@@ -14,6 +14,25 @@ veteran-leaning (tier ladder, recruitment tracking) and bonus is brand-new-
 player-leaning (just the bonus, just the code, just the signup). Each domain
 has its own deploy.
 
+## Build Status — All 8 Agents Complete (2026-04-27)
+
+Initial build merged to `main` via PR #1. Site is live in production on Vercel.
+
+| Agent | Scope | Status |
+|------|------|--------|
+| 1 | Next.js 14.2.35 scaffold, Tailwind palette, base layout | ✅ |
+| 2 | 9 shared components (HeroCarousel, ReferralCodeBox, CTAButton, SecondaryLink, StepCard, WarningBanner, FAQAccordion, NavBar, Footer) | ✅ |
+| 3 | Conversion-first homepage `/` with above-fold code box, 6 content sections, JSON-LD FAQPage | ✅ |
+| 4 | `/how-to-use` 5-step walkthrough with screenshot placeholder cards | ✅ |
+| 5 | `/faq` with 18 questions across 5 categories + JSON-LD schema | ✅ |
+| 6 | `/about-the-bonus` explainer with FTC disclosure | ✅ |
+| 7 | sitemap.ts, robots.ts, manifest.ts, JSON-LD Organization schema in layout | ✅ |
+| 8 | Themed 404 page (`This Sector Is Empty`) | ✅ |
+
+**Deviations from the original spec:** Next pinned to `14.2.35` (CVE patch over `14.2.18`); `@next/font` omitted (built into `next/font` since Next 13.2). See `SESSION-2026-04-27.md` for the full session log.
+
+**Outstanding before public launch:** swap screenshot placeholders on `/how-to-use` for real images, verify referral code is still active on RSI, confirm Vercel custom domain config (DNS in progress).
+
 ## Agentic Build Instructions
 Use an agentic, incremental approach. Complete each subtask fully and confirm
 success before proceeding. Do not attempt to build everything in one pass.
