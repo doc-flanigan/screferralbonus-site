@@ -6,13 +6,22 @@ searching "star citizen referral bonus", "star citizen referral code 2026",
 "star citizen 50000 UEC", or "star citizen new player bonus" — the highest
 intent search bucket in the portfolio: they're about to sign up and need a
 working code immediately. Single audience (new players); single goal (use
-referral code at signup). Funnels secondarily to o7citizen.com for new player
+referral code at signup). Funnels secondarily to dayonecitizen.com for new player
 guidance.
 
 This is a sister site to screferralrewards.com but distinct: rewards is
 veteran-leaning (tier ladder, recruitment tracking) and bonus is brand-new-
 player-leaning (just the bonus, just the code, just the signup). Each domain
 has its own deploy.
+
+## Quick Reference
+
+```
+Referral code:  STAR-GCQJ-N6NC
+Enlist URL:     https://www.robertsspaceindustries.com/enlist?referral=STAR-GCQJ-N6NC
+Hub:            https://dayonecitizen.com
+Conventions:    E:\Claude Code\sc-portfolio\SHARED_CONVENTIONS.md
+```
 
 ## Build Status — All 8 Agents Complete (2026-04-27)
 
@@ -63,15 +72,15 @@ Build these reusable components in /components/:
     Style: large gold-bordered box, impossible to miss
   - CTAButton.tsx: primary gold button — "Claim Your 50,000 UEC Bonus"
     → referral URL
-  - SecondaryLink.tsx: "New Player Guide at o7citizen.com"
-    → https://o7citizen.com
+  - SecondaryLink.tsx: "New Player Guide at dayonecitizen.com"
+    → https://dayonecitizen.com
   - StepCard.tsx: numbered step card (1, 2, 3) for the signup walkthrough
   - WarningBanner.tsx: amber/gold banner — used for the "24-hour grace
     period" warning about entering the code at signup
   - FAQAccordion.tsx: expandable FAQ items
   - Footer.tsx: three-section footer (see spec below)
   - NavBar.tsx: sticky top nav, logo "screferralbonus.com", links: Home,
-    How to Use, FAQ, About the Bonus, o7citizen.com. Mobile hamburger.
+    How to Use, FAQ, About the Bonus, dayonecitizen.com. Mobile hamburger.
 Confirm all components render without errors before proceeding.
 
 ### Agent 3 — Homepage (/)
@@ -99,7 +108,7 @@ viewport on both mobile and desktop.
       available; bonus events occasionally add extras
     * "Will the Code Expire?" — explain code persistence
     * FAQAccordion (8 questions)
-    * Final CTAButton + SecondaryLink to o7citizen.com
+    * Final CTAButton + SecondaryLink to dayonecitizen.com
   - Footer
   Confirm full page renders correctly on mobile (375px) and desktop.
 
@@ -136,7 +145,7 @@ viewport on both mobile and desktop.
     * What's the recruitment ladder?
     * Where do I see the bonus in-game?
   - JSON-LD FAQPage schema for all questions
-  - Internal links to o7citizen.com glossary for SC terms
+  - Internal links to dayonecitizen.com glossary for SC terms
   - CTAButton at bottom
   Confirm page renders and schema validates.
 
@@ -170,12 +179,6 @@ viewport on both mobile and desktop.
   - Run `npm run build` — fix any TypeScript or build errors
   - Confirm build passes cleanly
 
-## Referral URL
-https://www.robertsspaceindustries.com/enlist?referral=STAR-GCQJ-N6NC
-
-## Hub Link
-https://o7citizen.com
-
 ## Sister Site
 screferralrewards.com — same portfolio, but veteran-focused on the
 recruitment ladder and rewards tiers. Internal-link sparingly; the two
@@ -189,28 +192,9 @@ sites have distinct intent.
   --platinum: #e8e8e8
   --muted: #6b7280
 
-## Footer Spec (mandatory)
-Three sections:
-1. Fan site disclaimer:
-   "This is an unofficial fan site and is not affiliated with, endorsed by,
-   or connected to Cloud Imperium Games, Roberts Space Industries, or the
-   Star Citizen franchise in any way."
-2. FTC disclosure:
-   "Affiliate Disclosure: If you create a Star Citizen account using
-   referral code STAR-GCQJ-N6NC, the site owner (Doc_Flanigan) will receive
-   an in-game bonus reward. You still receive your full 50,000 UEC bonus
-   at no cost to you."
-3. RSI Fankit badge:
-   <Image src="/images/made-by-community.png"
-          alt="Made by the Star Citizen Community"
-          width={120} height={40} />
-
-## Commit Message Convention
-feat: [component/page] — brief description
-fix: [component/page] — brief description
-seo: [page] — brief description
-docs: update README
-chore: [description]
+## Network Conventions
+See `E:\Claude Code\sc-portfolio\SHARED_CONVENTIONS.md` for footer spec,
+tone rules, commit convention, tech stack, and agentic build pattern.
 
 ## PR/Merge Description Template
 ### What this PR does
