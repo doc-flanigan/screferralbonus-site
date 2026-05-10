@@ -1,5 +1,7 @@
+'use client';
+import { useState, useEffect } from 'react';
 import { ArrowUpRight } from 'lucide-react';
-import { REFERRAL_URL } from '@/lib/constants';
+import { getRotatedReferralUrl, FALLBACK_REFERRAL_URL } from '@/lib/referral-rotator';
 
 type Props = {
   href?: string;
@@ -9,11 +11,15 @@ type Props = {
 };
 
 export default function CTAButton({
-  href = REFERRAL_URL,
+  href: hrefProp,
   children = 'Claim Your 50,000 UEC Bonus',
   size = 'lg',
   className = '',
 }: Props) {
+  const [referralUrl, setReferralUrl] = useState(FALLBACK_REFERRAL_URL);
+  useEffect(() => { setReferralUrl(getRotatedReferralUrl()); }, []);
+
+  const href = hrefProp ?? referralUrl;
   const sizing =
     size === 'lg'
       ? 'px-8 py-4 text-base sm:text-lg'
