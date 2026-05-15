@@ -81,10 +81,7 @@ export default function Footer() {
             <span className="font-display uppercase tracking-[0.18em] text-platinum/70">
               Affiliate Disclosure:
             </span>{' '}
-            If you create a Star Citizen account using referral code{' '}
-            <span className="font-mono text-gold">{REFERRAL_CODE}</span>, the
-            site owner (Doc_Flanigan) will receive an in-game bonus reward. You
-            still receive your full 50,000 UEC bonus at no cost to you.
+            This site uses Star Citizen referral links. Referral code owners may receive an in-game bonus if you sign up. Your rewards are not affected.
           </p>
         </div>
 

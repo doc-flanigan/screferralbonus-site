@@ -206,20 +206,7 @@ export default function AboutTheBonusPage() {
           </h2>
           <div className="hud-corner relative bg-charcoalMid/40 border border-platinum/10 p-6 sm:p-8 text-base text-platinum/80 leading-relaxed">
             <p>
-              If you create a Star Citizen account using referral code{' '}
-              <span className="font-mono text-gold">{REFERRAL_CODE}</span>, the
-              site owner (Doc_Flanigan) will receive credit toward the
-              official RSI recruitment ladder, which can unlock cosmetic
-              rewards over time.
-            </p>
-            <p className="mt-4">
-              This has zero effect on you:{' '}
-              <span className="text-platinum font-semibold">
-                you receive your full 50,000 UEC bonus at no cost
-              </span>
-              . The code is identical in function to any other valid Star
-              Citizen referral code. We disclose this relationship in line
-              with FTC guidance on affiliate links.
+              Affiliate disclosure: This site uses Star Citizen referral links. Referral code owners may receive an in-game bonus if you sign up. Your rewards are not affected.
             </p>
             <p className="mt-4 text-sm text-platinum/60">
               This site is unofficial and not affiliated with Cloud Imperium
