@@ -9,7 +9,7 @@ type Props = {
 
 export default function SecondaryLink({
   href = HUB_URL,
-  children = 'New Player Guide at o7citizen.com',
+  children = 'New Player Guide at dayonecitizen.com',
   className = '',
 }: Props) {
   const isExternal = href.startsWith('http');

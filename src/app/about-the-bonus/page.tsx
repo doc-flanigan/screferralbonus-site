@@ -86,7 +86,7 @@ export default function AboutTheBonusPage() {
                 rel="noopener noreferrer"
                 className="text-gold hover:underline"
               >
-                o7citizen.com
+                dayonecitizen.com
               </a>{' '}
               fan site network.
             </p>

@@ -50,7 +50,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="text-sm text-platinum/75 hover:text-gold transition-colors"
                 >
-                  o7citizen.com — New Player Hub
+                  dayonecitizen.com — New Player Hub
                 </a>
               </li>
               <li>

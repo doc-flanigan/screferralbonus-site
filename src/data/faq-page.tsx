@@ -206,7 +206,7 @@ export const FAQ_CATEGORIES: FAQCategory[] = [
       {
         q: 'Who is Doc_Flanigan and why does this code work?',
         text:
-          'Doc_Flanigan is the player whose account this referral code belongs to. The code is shared on this site as part of the o7citizen.com network of fan sites. Star Citizen referral codes belong to player accounts permanently — as long as the account is in good standing, the code works.',
+          'Doc_Flanigan is the player whose account this referral code belongs to. The code is shared on this site as part of the dayonecitizen.com network of fan sites. Star Citizen referral codes belong to player accounts permanently — as long as the account is in good standing, the code works.',
         a: (
           <>
             Doc_Flanigan is the player whose account this referral code
@@ -217,7 +217,7 @@ export const FAQ_CATEGORIES: FAQCategory[] = [
               rel="noopener noreferrer"
               className="text-gold hover:underline"
             >
-              o7citizen.com
+              dayonecitizen.com
             </a>{' '}
             network of fan sites. Star Citizen referral codes belong to player
             accounts permanently — as long as the account is in good
@@ -233,7 +233,7 @@ export const FAQ_CATEGORIES: FAQCategory[] = [
       {
         q: 'I\'m brand new to Star Citizen — where do I start?',
         text:
-          'Sign up with the referral code first to lock in the 50,000 UEC. Then visit o7citizen.com — a plain-English new player hub with explainers on terminology, ships, and what to do in your first hour in-game.',
+          'Sign up with the referral code first to lock in the 50,000 UEC. Then visit dayonecitizen.com — a plain-English new player hub with explainers on terminology, ships, and what to do in your first hour in-game.',
         a: (
           <>
             Sign up with the referral code first to lock in the 50,000 UEC.
@@ -244,7 +244,7 @@ export const FAQ_CATEGORIES: FAQCategory[] = [
               rel="noopener noreferrer"
               className="text-gold hover:underline"
             >
-              o7citizen.com
+              dayonecitizen.com
             </a>{' '}
             — a plain-English new player hub with explainers on terminology,
             ships, and what to do in your first hour in-game.

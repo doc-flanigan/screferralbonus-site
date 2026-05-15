@@ -28,7 +28,7 @@ Full URL: https://www.robertsspaceindustries.com/enlist?referral=STAR-GCQJ-N6NC
 ## Funnel
 
 screferralbonus.com → above-fold code + signup walkthrough → RSI signup →
-o7citizen.com (for ongoing new player guidance)
+dayonecitizen.com (for ongoing new player guidance)
 
 ## Pages
 

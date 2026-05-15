@@ -107,7 +107,7 @@ export default function FAQPage() {
             <p className="text-platinum/70 mb-10 max-w-xl mx-auto leading-relaxed">
               Account creation takes two minutes and the bonus is automatic.
               For deeper context on terminology and gameplay, head to the new
-              player hub at o7citizen.com.
+              player hub at dayonecitizen.com.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
               <CTAButton />
