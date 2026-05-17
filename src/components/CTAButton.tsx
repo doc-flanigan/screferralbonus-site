@@ -8,6 +8,7 @@ type Props = {
   children?: React.ReactNode;
   size?: 'md' | 'lg';
   className?: string;
+  trackingLabel?: string;
 };
 
 export default function CTAButton({
@@ -15,6 +16,7 @@ export default function CTAButton({
   children = 'Claim Your 50,000 UEC Bonus',
   size = 'lg',
   className = '',
+  trackingLabel,
 }: Props) {
   const [referralUrl, setReferralUrl] = useState(FALLBACK_REFERRAL_URL);
   useEffect(() => { setReferralUrl(getRotatedReferralUrl()); }, []);
@@ -25,12 +27,28 @@ export default function CTAButton({
       ? 'px-8 py-4 text-base sm:text-lg'
       : 'px-6 py-3 text-sm sm:text-base';
 
+  const handleClick = () => {
+    const code = href.split('referral=')[1] ?? ''
+    fetch('/api/track-click', {
+      method: 'POST',
+      keepalive: true,
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        label: trackingLabel ?? 'unknown',
+        referralCode: code,
+        page: window.location.pathname,
+        site: window.location.hostname,
+      }),
+    }).catch(() => {})
+  }
+
   return (
     <a
       href={href}
       target="_blank"
       rel="noopener noreferrer sponsored"
       className={`group relative inline-flex items-center justify-center gap-2 ${sizing} font-display font-semibold uppercase tracking-[0.18em] text-charcoalDeep bg-gold hover:bg-goldDark transition-all duration-200 shadow-gold-soft hover:shadow-gold-glow active:translate-y-[1px] ${className}`}
+      onClick={handleClick}
     >
       <span className="absolute inset-0 -z-10 animate-pulse-gold rounded-none" aria-hidden />
       <span>{children}</span>
