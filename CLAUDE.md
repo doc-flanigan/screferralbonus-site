@@ -227,3 +227,27 @@ Added 2026-05-17. Every referral CTA click fires a background POST to `/api/log`
 - [ ] Click CTA **with** adblocker enabled → Sheet row appears within 5s
 - [ ] Click CTA **with** adblocker enabled → Discord embed appears in #referral-clicks
 - [ ] Click CTA **without** adblocker → same as above
+
+---
+
+## SEO
+
+**Network role:** Conversion satellite — new player referral bonus funnel
+**Search engine:** Both
+
+**Primary keywords:**
+- "star citizen referral bonus"
+- "star citizen 50000 UEC"
+- "star citizen new player bonus"
+- "star citizen referral code 2026"
+
+**Cross-links this site must send (body copy only):**
+- → dayonecitizen.com: "New player guide" secondary CTA — always present after the referral CTA
+- → freeflyevent.com: "Try the game free during a Free Fly event before you buy"
+
+**Do not:**
+- Add veteran tier ladder or recruitment content — new players only
+- Place cross-portfolio links in footers or link lists — editorial/body copy only
+- Target new keywords without updating `E:\Claude Code\sc-portfolio\docs\seo\keyword-research.md`
+
+**Full strategy:** `E:\Claude Code\sc-portfolio\docs\seo\README.md`
