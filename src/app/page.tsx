@@ -179,6 +179,19 @@ export default function Home() {
                   email is verified.
                 </p>
               </div>
+              {/* SEO cross-link: dayonecitizen */}
+              <p className="text-sm text-muted mt-4">
+                Never played Star Citizen?{' '}
+                <a
+                  href="https://dayonecitizen.com"
+                  className="text-gold hover:underline"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  DayOneCitizen.com
+                </a>{' '}
+                is your first stop — plain-English guides for brand-new players.
+              </p>
             </div>
           </div>
         </section>
@@ -287,6 +300,18 @@ export default function Home() {
                   events&rdquo; that stack additional rewards on top —
                   ship paints, FPS weapons, or extra UEC. Those events are
                   time-limited; the baseline bonus is not.
+                </p>
+                {/* SEO cross-link: freeflyevent */}
+                <p className="text-sm text-muted mt-3">
+                  <a
+                    href="https://freeflyevent.com"
+                    className="text-gold hover:underline"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    Free Fly events
+                  </a>{' '}
+                  let you try Star Citizen for free — check current event dates before you create your account.
                 </p>
               </div>
             </div>
