@@ -18,6 +18,17 @@ export default function ReferralCodeBox({
   const value = copyValue === 'code' ? REFERRAL_CODE : REFERRAL_URL;
 
   const handleCopy = async () => {
+    fetch('/api/log', {
+      method: 'POST',
+      keepalive: true,
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        label: copyValue === 'code' ? 'code-copy' : 'link-copy',
+        referralCode: REFERRAL_CODE,
+        page: window.location.pathname,
+        site: window.location.hostname,
+      }),
+    }).catch(() => {})
     try {
       await navigator.clipboard.writeText(value);
       setCopied(true);
