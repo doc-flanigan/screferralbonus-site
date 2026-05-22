@@ -8,6 +8,7 @@ import HeroCarousel from '@/components/HeroCarousel';
 import ReferralCodeBox from '@/components/ReferralCodeBox';
 import CTAButton from '@/components/CTAButton';
 import SecondaryLink from '@/components/SecondaryLink';
+import { DiscordCTA } from '@/components/DiscordCTA';
 import StepCard from '@/components/StepCard';
 import WarningBanner from '@/components/WarningBanner';
 import FAQAccordion from '@/components/FAQAccordion';
@@ -128,6 +129,7 @@ export default function Home() {
                 Opens robertsspaceindustries.com — code pre-filled.
               </p>
             </div>
+            <DiscordCTA />
 
             <div className="mt-5 max-w-2xl">
               <WarningBanner>
