@@ -9,7 +9,7 @@ import SecondaryLink from '@/components/SecondaryLink';
 import { REFERRAL_CODE, SITE_URL, HUB_URL } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'About the Star Citizen Referral Program — How It Works & Why It Exists',
+  title: 'About the Star Citizen Referral Program & 50,000 UEC',
   description:
     'Plain-English explainer of the Star Citizen referral program: how new players earn 50,000 UEC, why CIG runs it, and how bonus events work.',
   alternates: { canonical: `${SITE_URL}/about-the-bonus` },

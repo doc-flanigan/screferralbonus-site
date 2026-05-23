@@ -54,7 +54,7 @@ export default function Footer() {
             <span className="font-display uppercase tracking-[0.18em] text-platinum/70">
               Affiliate Disclosure:
             </span>{' '}
-            This site uses Star Citizen referral links. Referral code owners may receive an in-game bonus if you sign up. Your rewards are not affected.
+            This site uses Star Citizen referral code STAR-GCQJ-N6NC. Referral code owners may receive an in-game bonus if you sign up. Your rewards are not affected.
           </p>
         </div>
 

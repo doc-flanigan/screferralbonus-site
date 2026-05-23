@@ -16,7 +16,6 @@ export const NAV_LINKS: readonly NavLink[] = [
   { label: 'How to Use', href: '/how-to-use' },
   { label: 'FAQ', href: '/faq' },
   { label: 'About the Bonus', href: '/about-the-bonus' },
-  { label: 'dayonecitizen.com', href: HUB_URL, external: true },
 ];
 
 export const HERO_SLIDE_COUNT = 12;

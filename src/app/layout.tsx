@@ -73,7 +73,7 @@ const organizationJsonLd = {
   logo: `${SITE_URL}/images/made-by-community.png`,
   description:
     'Unofficial Star Citizen fan site providing the working referral code STAR-GCQJ-N6NC for the 50,000 UEC new-player bonus.',
-  sameAs: [HUB_URL, 'https://screferralreward.com'],
+  sameAs: [HUB_URL],
 };
 
 export default function RootLayout({
