@@ -124,7 +124,7 @@ export default function Home() {
 
             {/* CTA + warning */}
             <div className="mt-6 flex flex-col sm:flex-row sm:items-center gap-4">
-              <CTAButton size="lg">Create Account &amp; Claim Bonus</CTAButton>
+              <CTAButton size="lg" trackingLabel="homepage-cta">Create Account &amp; Claim Bonus</CTAButton>
               <p className="font-mono text-xs text-platinum/50 sm:max-w-[200px] leading-relaxed">
                 Opens robertsspaceindustries.com — code pre-filled.
               </p>
@@ -231,7 +231,7 @@ export default function Home() {
               </StepCard>
             </div>
             <div className="mt-12 flex justify-center">
-              <CTAButton />
+              <CTAButton trackingLabel="homepage-steps-cta" />
             </div>
           </div>
         </section>
@@ -389,7 +389,7 @@ export default function Home() {
               Hit the button — it pre-fills automatically on the signup page.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-              <CTAButton />
+              <CTAButton trackingLabel="homepage-bottom-cta" />
               <SecondaryLink />
             </div>
           </div>

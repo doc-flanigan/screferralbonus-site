@@ -297,7 +297,7 @@ export default function HowToUsePage() {
           <div className="mb-8">
             <ReferralCodeBox />
           </div>
-          <CTAButton />
+          <CTAButton trackingLabel="how-to-use-cta" />
         </section>
       </main>
 

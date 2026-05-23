@@ -47,6 +47,16 @@ export const metadata: Metadata = {
   ],
   robots: { index: true, follow: true },
   alternates: { canonical: SITE_URL },
+  openGraph: {
+    images: [
+      {
+        url: '/images/hero/hero-01.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Star Citizen referral bonus — 50,000 aUEC for new players',
+      },
+    ],
+  },
 };
 
 export const viewport: Viewport = {
@@ -63,7 +73,7 @@ const organizationJsonLd = {
   logo: `${SITE_URL}/images/made-by-community.png`,
   description:
     'Unofficial Star Citizen fan site providing the working referral code STAR-GCQJ-N6NC for the 50,000 UEC new-player bonus.',
-  sameAs: [HUB_URL, 'https://screferralrewards.com'],
+  sameAs: [HUB_URL, 'https://screferralreward.com'],
 };
 
 export default function RootLayout({

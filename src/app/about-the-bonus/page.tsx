@@ -229,7 +229,7 @@ export default function AboutTheBonusPage() {
               <ReferralCodeBox />
             </div>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-              <CTAButton />
+              <CTAButton trackingLabel="about-bonus-cta" />
               <SecondaryLink />
             </div>
           </div>

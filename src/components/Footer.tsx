@@ -1,13 +1,13 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { REFERRAL_CODE, NAV_LINKS, HUB_URL } from '@/lib/constants';
+import { REFERRAL_CODE, NAV_LINKS } from '@/lib/constants';
 
 export default function Footer() {
   return (
     <footer className="relative mt-24 border-t border-gold/15 bg-charcoalDeep">
       <div className="mx-auto max-w-6xl px-5 sm:px-8 py-12 sm:py-16">
         {/* Top row: brand + links */}
-        <div className="grid gap-10 md:grid-cols-3 mb-12">
+        <div className="grid gap-10 md:grid-cols-2 mb-12">
           <div>
             <p className="font-display text-lg font-bold tracking-[0.06em] text-platinum">
               screferralbonus
@@ -38,33 +38,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div>
-            <p className="font-display text-xs uppercase tracking-[0.28em] text-gold/80 mb-4">
-              Network
-            </p>
-            <ul className="space-y-2.5">
-              <li>
-                <a
-                  href={HUB_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm text-platinum/75 hover:text-gold transition-colors"
-                >
-                  dayonecitizen.com — New Player Hub
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://screferralrewards.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm text-platinum/75 hover:text-gold transition-colors"
-                >
-                  screferralrewards.com — Veteran Tier Tracker
-                </a>
-              </li>
-            </ul>
-          </div>
         </div>
 
         {/* Disclaimers */}

@@ -110,7 +110,7 @@ export default function FAQPage() {
               player hub at dayonecitizen.com.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-              <CTAButton />
+              <CTAButton trackingLabel="faq-cta" />
               <SecondaryLink />
             </div>
           </div>
