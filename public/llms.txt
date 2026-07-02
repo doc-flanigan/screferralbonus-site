@@ -1,0 +1,22 @@
+# screferralbonus.com
+
+> Unofficial, plain-English guide to the Star Citizen referral bonus for brand-new players. Explains how to claim 50,000 free UEC by entering a referral code at signup, how the referral program works, and what to do next. Built for people who are about to create a Star Citizen account and want a working code immediately. Not affiliated with or endorsed by Cloud Imperium Games or Roberts Space Industries.
+
+## Pages
+
+- [Star Citizen Referral Bonus 2026 — 50,000 UEC Free Code](https://screferralbonus.com/): Above-the-fold referral code, one-click copy, and a plain-English explainer of the 50,000 UEC signup bonus.
+- [How to Use a Star Citizen Referral Code](https://screferralbonus.com/how-to-use): Step-by-step signup walkthrough for entering the referral code, including the 24-hour grace period.
+- [Star Citizen Referral Bonus FAQ](https://screferralbonus.com/faq): Common questions about the code, UEC, the 24-hour rule, and where the bonus appears in-game.
+- [About the Star Citizen Referral Program](https://screferralbonus.com/about-the-bonus): How and why Cloud Imperium runs the referral program, plus an FTC disclosure.
+
+## Key facts
+
+- New Star Citizen accounts can receive a baseline 50,000 UEC bonus by entering a referral code during signup.
+- The referral code must be entered at registration; there is a limited grace period after account creation to add it.
+- UEC (United Earth Credits) is Star Citizen's persistent store currency, distinct from the in-game aUEC used in the live universe.
+- The bonus is for brand-new players; existing accounts do not qualify.
+
+## Related
+
+- [dayonecitizen.com](https://dayonecitizen.com): Plain-English getting-started guide for brand-new Star Citizen players.
+- [freeflyevent.com](https://freeflyevent.com): Star Citizen Free Fly event tracker — try the game free before you buy.
