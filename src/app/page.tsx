@@ -12,6 +12,7 @@ import { DiscordCTA } from '@/components/DiscordCTA';
 import StepCard from '@/components/StepCard';
 import WarningBanner from '@/components/WarningBanner';
 import FAQAccordion from '@/components/FAQAccordion';
+import { PageSources } from '@/components/PageSources';
 
 import { REFERRAL_CODE, SITE_URL } from '@/lib/constants';
 import { HOMEPAGE_FAQ } from '@/data/homepage-faq';
@@ -395,6 +396,8 @@ export default function Home() {
           </div>
         </section>
       </main>
+
+      <PageSources route="/" />
 
       <Footer />
     </>
