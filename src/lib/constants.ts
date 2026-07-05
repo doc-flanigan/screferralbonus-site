@@ -18,4 +18,4 @@ export const NAV_LINKS: readonly NavLink[] = [
   { label: 'About the Bonus', href: '/about-the-bonus' },
 ];
 
-export const HERO_SLIDE_COUNT = 12;
+export const HERO_SLIDE_COUNT = 18;

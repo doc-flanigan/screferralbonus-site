@@ -19,6 +19,8 @@ const slides = Array.from({ length: HERO_SLIDE_COUNT }, (_, i) => {
   return `/images/hero/hero-${num}.jpg`;
 });
 
+const START = 9;
+
 export default function HeroCarousel({
   title,
   subtitle,
@@ -26,7 +28,7 @@ export default function HeroCarousel({
   intervalMs = 5000,
   className = '',
 }: Props) {
-  const [index, setIndex] = useState(0);
+  const [index, setIndex] = useState(START);
 
   useEffect(() => {
     const id = setInterval(
@@ -55,7 +57,7 @@ export default function HeroCarousel({
               src={slides[index]}
               alt=""
               fill
-              priority={index === 0}
+              priority={index === START}
               sizes="100vw"
               className="object-cover"
             />
