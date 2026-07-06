@@ -49,7 +49,7 @@ export default function NotFound() {
               <Home className="h-4 w-4" strokeWidth={2.25} />
               Back to Home
             </Link>
-            <CTAButton size="md" />
+            <CTAButton size="md" trackingLabel="not-found-cta" />
           </div>
         </div>
       </main>
