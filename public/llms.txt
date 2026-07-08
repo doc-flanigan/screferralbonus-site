@@ -11,7 +11,8 @@
 
 ## Key facts
 
-- New Star Citizen accounts can receive a baseline 50,000 UEC bonus by entering a referral code during signup.
+- The referral code this site provides is STAR-GCQJ-N6NC. Enter it in the Referral Code field when creating a new RSI account.
+- New Star Citizen accounts can receive a baseline 50,000 UEC bonus by entering a referral code during signup. No purchase is required for the bonus.
 - The referral code must be entered at registration; there is a limited grace period after account creation to add it.
 - UEC (United Earth Credits) is Star Citizen's persistent store currency, distinct from the in-game aUEC used in the live universe.
 - The bonus is for brand-new players; existing accounts do not qualify.
@@ -19,4 +20,5 @@
 ## Related
 
 - [dayonecitizen.com](https://dayonecitizen.com): Plain-English getting-started guide for brand-new Star Citizen players.
+- [dayonecitizen.com/referral-code](https://dayonecitizen.com/referral-code): Full referral-code walkthrough with annotated signup screenshots.
 - [freeflyevent.com](https://freeflyevent.com): Star Citizen Free Fly event tracker — try the game free before you buy.

@@ -6,7 +6,41 @@ import Footer from '@/components/Footer';
 import ReferralCodeBox from '@/components/ReferralCodeBox';
 import CTAButton from '@/components/CTAButton';
 import SecondaryLink from '@/components/SecondaryLink';
+import StaticHero from '@/components/StaticHero';
+import { PageSources } from '@/components/PageSources';
 import { REFERRAL_CODE, SITE_URL, HUB_URL } from '@/lib/constants';
+
+// FAQPage structured data — mirrors the visible questions on this page.
+const faqJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'Why does Cloud Imperium Games run a referral program?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Star Citizen is crowdfunded, so word of mouth is how it grows. The referral program rewards both sides: the new player gets 50,000 UEC to start with, and the referrer earns separate rewards once their recruit becomes an active player.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Does the person who referred me get part of my bonus?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'No. Your 50,000 UEC is yours in full. The referrer earns a separate Recruitment Point only if you later spend at least $40 on a game package — nothing is taken from your bonus.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Is the 50,000 UEC bonus always available?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Yes. The standard enlistment bonus is permanent — any new RSI account created with a referral code receives it. Time-limited promotions occasionally add extra rewards on top, but the baseline never goes away.',
+      },
+    },
+  ],
+};
 
 export const metadata: Metadata = {
   title: 'About the Star Citizen Referral Program & 50,000 UEC',
@@ -28,6 +62,10 @@ export default function AboutTheBonusPage() {
       <NavBar />
 
       <main>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
         {/* Header */}
         <section className="relative isolate overflow-hidden border-b border-gold/15">
           <div
@@ -50,6 +88,11 @@ export default function AboutTheBonusPage() {
             </p>
           </div>
         </section>
+
+        <StaticHero
+          src="/images/hero/hero-14.jpg"
+          alt="A Hammerhead gunship patrolling above a cratered moon"
+        />
 
         {/* The basics */}
         <section className="mx-auto max-w-3xl px-5 sm:px-8 py-16 sm:py-20">
@@ -216,6 +259,31 @@ export default function AboutTheBonusPage() {
           </div>
         </section>
 
+        {/* Quick answers */}
+        <section className="mx-auto max-w-5xl px-5 sm:px-8 py-16 sm:py-20">
+          <p className="font-display text-[0.7rem] uppercase tracking-[0.32em] text-gold/80 mb-3">
+            Quick answers
+          </p>
+          <h2 className="font-display text-3xl sm:text-4xl font-bold uppercase tracking-tight text-platinum mb-8">
+            Program Questions
+          </h2>
+          <div className="grid gap-6 md:grid-cols-3">
+            {faqJsonLd.mainEntity.map((q) => (
+              <div
+                key={q.name}
+                className="hud-corner relative bg-charcoalMid/40 border border-platinum/10 p-5 sm:p-6"
+              >
+                <h3 className="font-display text-base font-semibold text-platinum mb-2 leading-snug">
+                  {q.name}
+                </h3>
+                <p className="text-sm text-platinum/65 leading-relaxed">
+                  {q.acceptedAnswer.text}
+                </p>
+              </div>
+            ))}
+          </div>
+        </section>
+
         {/* Final code + CTA */}
         <section className="border-t border-gold/15 bg-charcoal/50">
           <div className="mx-auto max-w-3xl px-5 sm:px-8 py-20 sm:py-24 text-center">
@@ -234,6 +302,8 @@ export default function AboutTheBonusPage() {
             </div>
           </div>
         </section>
+
+        <PageSources route="/about-the-bonus" />
       </main>
 
       <Footer />

@@ -179,6 +179,15 @@ viewport on both mobile and desktop.
   - Run `npm run build` — fix any TypeScript or build errors
   - Confirm build passes cleanly
 
+## Maintenance contract (passive site)
+
+Polished 2026-07-07 as a set-and-forget passive funnel (static heroes replaced
+the carousel; every page has FAQPage JSON-LD + ledger-driven PageSources; the
+real annotated RSI signup screenshot lives on /how-to-use). **The only
+recurring maintenance is the year in titles/copy ("2026") — refresh each
+January.** Everything else is evergreen by design; don't add content that can
+rot (dated countdowns, event promises, "current patch" references).
+
 ## Sister Site
 screferralrewards.com — same portfolio, but veteran-focused on the
 recruitment ladder and rewards tiers. Internal-link sparingly; the two

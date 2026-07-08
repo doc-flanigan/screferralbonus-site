@@ -4,7 +4,7 @@ import { Sparkles, Cog, Shield, Crosshair, Pill } from 'lucide-react';
 
 import NavBar from '@/components/NavBar';
 import Footer from '@/components/Footer';
-import HeroCarousel from '@/components/HeroCarousel';
+import StaticHero from '@/components/StaticHero';
 import ReferralCodeBox from '@/components/ReferralCodeBox';
 import CTAButton from '@/components/CTAButton';
 import SecondaryLink from '@/components/SecondaryLink';
@@ -144,8 +144,11 @@ export default function Home() {
           </div>
         </section>
 
-        {/* ============ HERO CAROUSEL ============ */}
-        <HeroCarousel />
+        {/* ============ HERO IMAGE ============ */}
+        <StaticHero
+          src="/images/hero/hero-18.jpg"
+          alt="An Idris frigate firing its railgun in a bright flash"
+        />
 
         {/* ============ WHAT IS THE BONUS ============ */}
         <section
