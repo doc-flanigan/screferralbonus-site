@@ -186,8 +186,10 @@ the carousel; every page has FAQPage JSON-LD + ledger-driven PageSources; the
 real annotated RSI signup screenshot lives on /how-to-use). **Recurring
 maintenance: (1) the year in titles/copy ("2026") — refresh each January;
 (2) the "Verified working <date>" stamps on /how-to-use and /promo-codes —
-re-check the code on the live RSI enlist page monthly and update the date
-(added 2026-07-11; DOC /referral-code keeps the canonical dated log).**
+run `npm run verify-referral` in the portfolio root monthly; it re-checks
+the code on the live RSI enlist page and bumps `src/data/verification.ts`
++ llms.txt automatically (added 2026-07-11, scripted 2026-07-12; DOC
+/referral-code keeps the canonical dated log).**
 Everything else is evergreen by design; don't add content that can rot
 (dated countdowns, event promises, "current patch" references).
 
