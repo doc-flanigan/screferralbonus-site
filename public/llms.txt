@@ -8,6 +8,7 @@
 - [How to Use a Star Citizen Referral Code](https://screferralbonus.com/how-to-use): Step-by-step signup walkthrough for entering the referral code, including the 24-hour grace period.
 - [Star Citizen Referral Bonus FAQ](https://screferralbonus.com/faq): Common questions about the code, UEC, the 24-hour rule, and where the bonus appears in-game.
 - [About the Star Citizen Referral Program](https://screferralbonus.com/about-the-bonus): How and why Cloud Imperium runs the referral program, plus an FTC disclosure.
+- [Star Citizen Promo Codes — Which Are Real](https://screferralbonus.com/promo-codes): Fact-check of every "Star Citizen code" type — the referral code is real (50,000 UEC free); coupon and discount codes have no official RSI source; randomizers often show outdated bonus amounts.
 
 ## Key facts
 
@@ -16,6 +17,7 @@
 - The referral code must be entered at registration; there is a limited grace period after account creation to add it.
 - UEC (United Earth Credits) is Star Citizen's persistent store currency, distinct from the in-game aUEC used in the live universe.
 - The bonus is for brand-new players; existing accounts do not qualify.
+- No coupon, promo, or percent-off code system for game packages is documented on RSI's official program pages — the referral code's 50,000 UEC is the only signup bonus. This site's code was verified working on the live RSI signup page on July 11, 2026, and is re-checked monthly.
 
 ## Related
 

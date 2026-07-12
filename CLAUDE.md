@@ -183,10 +183,13 @@ viewport on both mobile and desktop.
 
 Polished 2026-07-07 as a set-and-forget passive funnel (static heroes replaced
 the carousel; every page has FAQPage JSON-LD + ledger-driven PageSources; the
-real annotated RSI signup screenshot lives on /how-to-use). **The only
-recurring maintenance is the year in titles/copy ("2026") — refresh each
-January.** Everything else is evergreen by design; don't add content that can
-rot (dated countdowns, event promises, "current patch" references).
+real annotated RSI signup screenshot lives on /how-to-use). **Recurring
+maintenance: (1) the year in titles/copy ("2026") — refresh each January;
+(2) the "Verified working <date>" stamps on /how-to-use and /promo-codes —
+re-check the code on the live RSI enlist page monthly and update the date
+(added 2026-07-11; DOC /referral-code keeps the canonical dated log).**
+Everything else is evergreen by design; don't add content that can rot
+(dated countdowns, event promises, "current patch" references).
 
 ## Sister Site
 screferralrewards.com — same portfolio, but veteran-focused on the

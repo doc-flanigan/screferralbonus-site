@@ -55,6 +55,41 @@
           "https://robertsspaceindustries.com/en/referral-program"
         ]
       }
+    ],
+    "/promo-codes": [
+      {
+        "id": "no-official-coupon-codes",
+        "claim": "RSI's official referral-program pages document exactly one signup bonus — the referral code's 50,000 UEC; no coupon, promo, or percent-off code system for Star Citizen game packages is documented there.",
+        "status": "verified",
+        "sources": [
+          "https://robertsspaceindustries.com/en/referral-program",
+          "https://support.robertsspaceindustries.com/hc/en-us/articles/115013102847-Referral-Program-FAQ"
+        ]
+      },
+      {
+        "id": "randomizers-stale-bonus-amounts",
+        "claim": "As of July 11, 2026, several popular Star Citizen referral randomizer sites still advertise a 5,000 UEC signup bonus, which does not match the 50,000 UEC bonus on the official RSI Referral Program page.",
+        "status": "verified",
+        "sources": [
+          "https://robertsspaceindustries.com/en/referral-program"
+        ]
+      },
+      {
+        "id": "referral-bonus-no-purchase-required",
+        "claim": "Claiming the 50,000 UEC enlistment bonus requires no purchase — creating the free RSI account with a referral code is enough; the bonus stays on the account permanently.",
+        "status": "verified",
+        "sources": [
+          "https://robertsspaceindustries.com/en/referral-program"
+        ]
+      },
+      {
+        "id": "referral-enlistment-bonus-50k-uec",
+        "claim": "New RSI accounts created with a referral code receive a 50,000 UEC enlistment bonus.",
+        "status": "verified",
+        "sources": [
+          "https://robertsspaceindustries.com/en/referral-program"
+        ]
+      }
     ]
   }
 }

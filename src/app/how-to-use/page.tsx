@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
+import Link from 'next/link';
 import {
   UserPlus,
   KeyRound,
@@ -380,7 +381,19 @@ export default function HowToUsePage() {
           <div className="mb-8">
             <ReferralCodeBox />
           </div>
+          <p className="mb-8 text-sm font-semibold text-gold">
+            Verified working July 11, 2026 — checked on the live RSI signup
+            page. Re-checked monthly.
+          </p>
           <CTAButton trackingLabel="how-to-use-cta" />
+          <p className="mt-4 text-sm text-platinum/60">
+            The button opens the RSI signup page with the code already filled
+            in. Wondering about &ldquo;discount codes&rdquo; you saw elsewhere?{' '}
+            <Link href="/promo-codes" className="text-gold hover:underline">
+              See which Star Citizen codes are actually real
+            </Link>
+            .
+          </p>
         </section>
 
         <PageSources route="/how-to-use" />
