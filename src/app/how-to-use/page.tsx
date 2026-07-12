@@ -52,6 +52,49 @@ const faqJsonLd = {
   ],
 };
 
+// HowTo structured data — mirrors the visible five-step walkthrough (STEPS).
+// Step text is a plain-text summary of each step's rendered body copy.
+const howToJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'HowTo',
+  name: 'How to Use a Star Citizen Referral Code',
+  description:
+    'A five-step walkthrough for entering a Star Citizen referral code at signup and claiming the 50,000 UEC bonus.',
+  totalTime: 'PT2M',
+  step: [
+    {
+      '@type': 'HowToStep',
+      position: 1,
+      name: 'Visit the RSI Signup Page',
+      text: 'Open the official RSI Enlist page via the referral link — the URL contains the referral parameter, so the code is automatically attached to your signup.',
+    },
+    {
+      '@type': 'HowToStep',
+      position: 2,
+      name: 'Fill In Your Account Details',
+      text: 'Enter a unique handle, your email address, a password, and your country — your handle is your in-game identity and cannot be changed for free later.',
+    },
+    {
+      '@type': 'HowToStep',
+      position: 3,
+      name: `Confirm the Code ${REFERRAL_CODE}`,
+      text: `Check the Referral Code field on the signup form — if it is not pre-filled, paste ${REFERRAL_CODE} before submitting and look for the "Referral code successfully applied" confirmation.`,
+    },
+    {
+      '@type': 'HowToStep',
+      position: 4,
+      name: 'Verify Your Email',
+      text: 'Click the link in the RSI verification email to activate your account — this step finalizes the referral and triggers the bonus.',
+    },
+    {
+      '@type': 'HowToStep',
+      position: 5,
+      name: 'Confirm 50,000 UEC in Your Hangar',
+      text: 'Log in to robertsspaceindustries.com and check your account dashboard — the UEC balance should read 50,000, and the bonus is permanent.',
+    },
+  ],
+};
+
 export const metadata: Metadata = {
   title: 'How to Use a Star Citizen Referral Code — Step-by-Step',
   description:
@@ -193,6 +236,10 @@ export default function HowToUsePage() {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(howToJsonLd) }}
         />
         {/* Header */}
         <section className="relative isolate overflow-hidden border-b border-gold/15">
