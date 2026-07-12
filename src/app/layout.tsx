@@ -2,8 +2,6 @@ import type { Metadata, Viewport } from 'next';
 import { Chakra_Petch, Manrope, JetBrains_Mono } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/next';
 import { SITE_URL, REFERRAL_CODE, HUB_URL } from '@/lib/constants';
-import GoogleAnalytics from '@/components/GoogleAnalytics';
-import CookieBanner from '@/components/CookieBanner';
 import './globals.css';
 
 const display = Chakra_Petch({
@@ -99,8 +97,6 @@ export default function RootLayout({
       <body className="bg-charcoalDeep text-platinum font-body">
         {children}
         <Analytics />
-        <GoogleAnalytics />
-        <CookieBanner />
       </body>
     </html>
   );
