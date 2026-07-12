@@ -8,6 +8,7 @@ import CTAButton from '@/components/CTAButton';
 import StaticHero from '@/components/StaticHero';
 import { PageSources } from '@/components/PageSources';
 import { SITE_URL } from '@/lib/constants';
+import { VERIFIED_DISPLAY, VERIFIED_MONTH } from '@/data/verification';
 
 const RSI_REFERRAL_PROGRAM = 'https://robertsspaceindustries.com/en/referral-program';
 const RSI_REFERRAL_FAQ =
@@ -47,7 +48,7 @@ const faqJsonLd = {
       name: 'Which Star Citizen code actually gives you something?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'A referral code, entered at RSI account creation. It adds 50,000 UEC to the new account with no purchase required. The code STAR-GCQJ-N6NC was verified working on the live RSI signup page on July 11, 2026.',
+        text: `A referral code, entered at RSI account creation. It adds 50,000 UEC to the new account with no purchase required. The code STAR-GCQJ-N6NC was verified working on the live RSI signup page on ${VERIFIED_DISPLAY}.`,
       },
     },
   ],
@@ -55,8 +56,7 @@ const faqJsonLd = {
 
 export const metadata: Metadata = {
   title: 'Star Citizen Promo Codes 2026 — Which Codes Are Actually Real',
-  description:
-    'Referral codes, coupon codes, discount codes, randomizers — sorted out. Only one Star Citizen code type gives you real value. Verified July 2026.',
+  description: `Referral codes, coupon codes, discount codes, randomizers — sorted out. Only one Star Citizen code type gives you real value. Verified ${VERIFIED_MONTH}.`,
   alternates: { canonical: `${SITE_URL}/promo-codes` },
   openGraph: {
     title: 'Star Citizen Promo Codes — Which Are Actually Real',
@@ -214,7 +214,7 @@ export default function PromoCodesPage() {
               </p>
               <p>
                 <span className="text-platinum font-semibold">
-                  Verified working July 11, 2026:
+                  Verified working {VERIFIED_DISPLAY}:
                 </span>{' '}
                 the code below was entered on the live RSI signup page and the
                 panel confirmed &ldquo;Referral code successfully

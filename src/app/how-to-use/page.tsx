@@ -18,6 +18,7 @@ import WarningBanner from '@/components/WarningBanner';
 import StaticHero from '@/components/StaticHero';
 import { PageSources } from '@/components/PageSources';
 import { REFERRAL_CODE, REFERRAL_URL, SITE_URL } from '@/lib/constants';
+import { VERIFIED_DISPLAY } from '@/data/verification';
 
 // FAQPage structured data — mirrors the visible "Quick answers" section.
 const faqJsonLd = {
@@ -382,8 +383,8 @@ export default function HowToUsePage() {
             <ReferralCodeBox />
           </div>
           <p className="mb-8 text-sm font-semibold text-gold">
-            Verified working July 11, 2026 — checked on the live RSI signup
-            page. Re-checked monthly.
+            Verified working {VERIFIED_DISPLAY} — checked on the live RSI
+            signup page. Re-checked monthly.
           </p>
           <CTAButton trackingLabel="how-to-use-cta" />
           <p className="mt-4 text-sm text-platinum/60">
