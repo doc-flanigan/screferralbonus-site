@@ -17,7 +17,7 @@
 - The referral code must be entered at registration; there is a limited grace period after account creation to add it.
 - UEC (United Earth Credits) is Star Citizen's persistent store currency, distinct from the in-game aUEC used in the live universe.
 - The bonus is for brand-new players; existing accounts do not qualify.
-- No coupon, promo, or percent-off code system for game packages is documented on RSI's official program pages — the referral code's 50,000 UEC is the only signup bonus. This site's code was verified working on the live RSI signup page on July 11, 2026, and is re-checked monthly.
+- No coupon, promo, or percent-off code system for game packages is documented on RSI's official program pages — the referral code's 50,000 UEC is the only signup bonus. This site's code was verified working on the live RSI signup page on July 12, 2026, and is re-checked monthly.
 
 ## Related
 
